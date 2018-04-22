@@ -20,5 +20,5 @@ function johnLennonFacts(facts){
     empty.push(facts[index]+ "!!!")
     index++;
   }
-  return result;
+  return empty;
 }
