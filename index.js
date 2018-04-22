@@ -22,3 +22,13 @@ function johnLennonFacts(facts){
   }
   return empty;
 }
+
+function iLoveTheBeatles(variable){
+  let emptyArray = [];
+  do{
+    emptyArray.push("I love the Beatles");
+    variable++;
+  }
+  while(variable < 15);
+  return emptyArray;
+}
